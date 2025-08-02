@@ -24,7 +24,7 @@ The plugin stores the `txHash`. You can check it using a blockchain explorer lik
 
 - GitHub Issues for bugs or feature requests
 - Email support for Pro users
-- [Documentation](https://docs.smartourism.elpeef.com)
+- [Documentation](https://smartourism.elpeef.com/docs)
 
 ---
 
