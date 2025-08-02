@@ -7,7 +7,7 @@ This section provides guidance on how to integrate SmartWisataChain with other W
 To enable booking-based payment via WooCommerce:
 
 1. Install and activate the WooCommerce plugin.
-2. Use the `[swc_booking_form]` shortcode in a WooCommerce product page.
+2. Use the `[smartwisata_booking]` shortcode in a WooCommerce product page.
 3. Ensure that the booking is recorded via `swc_handle_offchain_booking()` or on-chain depending on the user selection.
 4. Customize checkout behavior as needed.
 
