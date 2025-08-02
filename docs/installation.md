@@ -20,7 +20,7 @@ This guide will walk you through setting up SmartWisataChain in your WordPress s
    - Paste ABI JSON
    - Choose Mode: token, reservation, or both
 4. Embed shortcode in any page/post:
-   [[smartwisata_booking]]
+   [smartwisata_booking]
 5. Connect MetaMask and test booking or token transfers.
 
 ✅ Done! Your CMS now speaks blockchain.
