@@ -5,13 +5,13 @@ const config = {
   title: 'SmartWisataChain Docs',
   tagline: 'Transparansi & Otomatisasi Ekosistem Wisata',
   url: 'https://elpeef.github.io',
-  baseUrl: '/swc-docs/', // Disesuaikan dengan nama repo GitHub
+  baseUrl: '/swc-docs/', 
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
 
-  organizationName: 'ELPEEF', // GitHub username/organisasi
-  projectName: 'swc-docs', // Nama repo GitHub
+  organizationName: 'ELPEEF', 
+  projectName: 'swc-docs', 
 
   i18n: {
     defaultLocale: 'en',
@@ -39,12 +39,12 @@ const config = {
       title: 'SmartWisataChain',
       logo: {
         alt: 'SmartWisataChain Logo',
-        src: 'img/logo.svg',
+        src: 'img/logo.png',
       },
       items: [
         {
           type: 'doc',
-          docId: 'installation',
+          docId: 'index',
           position: 'left',
           label: 'Docs',
         },
@@ -62,8 +62,8 @@ const config = {
           title: 'Documentation',
           items: [
             {
-              label: 'Installation',
-              to: '/docs/installation',
+              label: 'Index',
+              to: '/docs/index',
             },
           ],
         },
@@ -72,16 +72,16 @@ const config = {
           items: [
             {
               label: 'Discussion',
-              href: 'https://github.com/ELPEEF/swc-docs/discussions',
+              href: 'https://github.com/ELPEEF/smartwisatachain/discussions',
             },
           ],
         },
         {
-          title: 'More',
+          title: 'Website',
           items: [
             {
-              label: 'GitHub',
-              href: 'https://github.com/ELPEEF/swc-docs',
+              label: 'SWC',
+              href: 'https://smartourism.elpeef.com',
             },
           ],
         },
