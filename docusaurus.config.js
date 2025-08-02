@@ -1,24 +1,17 @@
 // @ts-check
-import {themes as prismThemes} from 'prism-react-renderer';
+// Docusaurus config untuk SmartWisataChain Docs
 
-/** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'SmartWisataChain Docs',
-  tagline: 'Documentation for Smart Contract based Tourism Platform',
+  tagline: 'Transparansi & Otomatisasi Ekosistem Wisata',
+  url: 'https://elpeef.github.io',
+  baseUrl: '/swc-docs/', // Disesuaikan dengan nama repo GitHub
+  onBrokenLinks: 'warn',
+  onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
 
-  future: {
-    v4: true,
-  },
-
-  url: 'https://smartourism.elpeef.com',
-  baseUrl: '/docs/',
-
-  organizationName: 'elpeef', // GitHub username/org
-  projectName: 'swc-docs',     // GitHub repo name
-
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  organizationName: 'ELPEEF', // GitHub username/organisasi
+  projectName: 'swc-docs', // Nama repo GitHub
 
   i18n: {
     defaultLocale: 'en',
@@ -28,42 +21,35 @@ const config = {
   presets: [
     [
       'classic',
-      {
+      ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl:
-            'https://github.com/elpeef/swc-docs/edit/main/',
+          editUrl: 'https://github.com/ELPEEF/swc-docs/tree/main/',
         },
-        blog: {
-          showReadingTime: true,
-          editUrl:
-            'https://github.com/elpeef/swc-docs/edit/main/blog/',
-        },
+        blog: false, // Blog dinonaktifkan dulu
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
-      },
+      }),
     ],
   ],
 
   themeConfig: {
-    image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'SmartWisataChain Docs',
+      title: 'SmartWisataChain',
       logo: {
         alt: 'SmartWisataChain Logo',
         src: 'img/logo.svg',
       },
       items: [
         {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          type: 'doc',
+          docId: 'installation',
           position: 'left',
           label: 'Docs',
         },
-        { to: '/blog', label: 'Blog', position: 'left' },
         {
-          href: 'https://github.com/elpeef/swc-docs',
+          href: 'https://github.com/ELPEEF/swc-docs',
           label: 'GitHub',
           position: 'right',
         },
@@ -73,11 +59,11 @@ const config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Documentation',
           items: [
             {
-              label: 'Introduction',
-              to: '/docs/intro',
+              label: 'Installation',
+              to: '/docs/installation',
             },
           ],
         },
@@ -85,12 +71,8 @@ const config = {
           title: 'Community',
           items: [
             {
-              label: 'GitHub Discussions',
-              href: 'https://github.com/elpeef/swc-docs/discussions',
-            },
-            {
-              label: 'Ko-fi Support',
-              href: 'https://ko-fi.com/khudri',
+              label: 'Discussion',
+              href: 'https://github.com/ELPEEF/swc-docs/discussions',
             },
           ],
         },
@@ -98,23 +80,19 @@ const config = {
           title: 'More',
           items: [
             {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
-              label: 'SmartWisataChain Plugin',
-              href: 'https://github.com/elpeef/smartwisatachain',
+              label: 'GitHub',
+              href: 'https://github.com/ELPEEF/swc-docs',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} ELPEEF Dev Team. Built with Docusaurus.`,
+      copyright: `© ${new Date().getFullYear()} SmartWisataChain. Built with Docusaurus.`,
     },
-    prism: {
-      theme: prismThemes.github,
-      darkTheme: prismThemes.dracula,
+    colorMode: {
+      defaultMode: 'dark',
+      disableSwitch: false,
     },
   },
 };
 
-export default config;
+module.exports = config;
