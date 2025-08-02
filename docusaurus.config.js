@@ -39,7 +39,7 @@ const config = {
       title: 'SmartWisataChain',
       logo: {
         alt: 'SmartWisataChain Logo',
-        src: 'img/logo.png',
+        src: 'img/logo.svg',
       },
       items: [
         {
@@ -58,16 +58,7 @@ const config = {
     footer: {
       style: 'dark',
       links: [
-        {
-          title: 'Documentation',
-          items: [
-            {
-              label: 'Index',
-              to: '/docs/index',
-            },
-          ],
-        },
-        {
+                {
           title: 'Community',
           items: [
             {
