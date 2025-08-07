@@ -1,3 +1,3 @@
-# SmartWisataChain
+# SmartTourismChain
 
-Selamat datang di dokumentasi resmi SmartWisataChain!
+Selamat datang di dokumentasi resmi SmartTourismChain!
