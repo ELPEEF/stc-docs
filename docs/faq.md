@@ -1,6 +1,6 @@
 # ❓ FAQ - Frequently Asked Questions
 
-## What is SmartWisataChain?
+## What is SmartTourismChain?
 
 A WordPress plugin for hybrid (off-chain + on-chain) booking systems powered by Ethereum and MetaMask.
 
