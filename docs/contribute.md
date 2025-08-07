@@ -37,3 +37,4 @@ This is a community for builders who believe in accessible, usable Web3 for real
 ---
 
 For any questions, reach out via GitHub Issues or [smartourism.elpeef.com/docs](https://smartourism.elpeef.com/docs)
+

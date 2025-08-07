@@ -35,4 +35,4 @@ For external systems:
 
 ---
 
-Need a specific guide? [Open an issue](https://github.com/ELPEEF/swc-docs/issues) or submit a Pull Request 📬
+Need a specific guide? [Open an issue](https://github.com/ELPEEF/stc-docs/issues) or submit a Pull Request 📬

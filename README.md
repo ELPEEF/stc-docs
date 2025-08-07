@@ -18,7 +18,7 @@ Want to improve or fix something? Please read [`contribute.md`](./contribute.md)
 ## 📌 Notes
 
 - All markdown files are rendered using Docusaurus.
-- For more information or to see this documentation in action, visit: [docs.smartourism.elpeef.com](https://docs.smartourism.elpeef.com)
+- For more information or to see this documentation in action, visit: [smartourism.elpeef.com/docs](https://smartourism.elpeef.com/docs)
 
 ---
 
