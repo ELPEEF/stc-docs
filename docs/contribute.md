@@ -1,10 +1,10 @@
-# 🤝 Contributing to SmartWisataChain
+# 🤝 Contributing to SmartTourismChain
 
 We welcome contributions from developers, designers, writers, testers, and dreamers.
 
 ## 🚀 Getting Started
 
-1. Fork this repo: `swc-docs`
+1. Fork this repo: `stc-docs`
 2. Clone locally and install dependencies:
 
    ```bash
@@ -36,4 +36,4 @@ This is a community for builders who believe in accessible, usable Web3 for real
 
 ---
 
-For any questions, reach out via GitHub Issues or [docs.smarttourism.elpeef.com](https://docs.smarttourism.elpeef.com)
+For any questions, reach out via GitHub Issues or [smartourism.elpeef.com/docs](https://smartourism.elpeef.com/docs)
