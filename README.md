@@ -1,15 +1,15 @@
-# 📚 SmartWisataChain Documentation
+# 📚 SmartTourismChain Documentation
 
-This folder contains the complete documentation for the **SmartWisataChain** plugin and ecosystem.
+This folder contains the complete documentation for the **SmartTourismChain** plugin and ecosystem.
 
 ## 📁 Available Sections
 
 - `index.md`: Overview and purpose of the documentation.
-- `installation.md`: How to install and set up the SmartWisataChain plugin.
+- `installation.md`: How to install and set up the SmartTourismChain plugin.
 - `contribute.md`: Guidelines for contributing to this project.
 - `developer-hooks.md`: Technical notes for developers including hooks and internal events.
 - `faq.md`: Frequently Asked Questions for users and developers.
-- `integration-guide.md`: Instructions on how to integrate SmartWisataChain with other platforms.
+- `integration-guide.md`: Instructions on how to integrate SmartTourismChain with other platforms.
 
 ## ✍️ Contribution Guide
 
