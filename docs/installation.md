@@ -1,6 +1,6 @@
 # 🧰 Installation Guide
 
-This guide will walk you through setting up SmartWisataChain in your WordPress site.
+This guide will walk you through setting up SmartTourismChain in your WordPress site.
 
 ## 1. Requirements
 
@@ -13,9 +13,9 @@ This guide will walk you through setting up SmartWisataChain in your WordPress s
 
 1. Download the plugin ZIP or clone from GitHub:
    ```bash
-   git clone https://github.com/elpeef/smartwisatachain.git
+   git clone https://github.com/elpeef/smarttourismchain.git
 2. Upload and activate the plugin via WordPress Admin → Plugins.
-3. Go to SmartWisataChain Settings in your WP Admin:
+3. Go to SmartTourismChain Settings in your WP Admin:
    - Set Contract Address 
    - Paste ABI JSON
    - Choose Mode: token, reservation, or both
